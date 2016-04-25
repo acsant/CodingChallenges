@@ -7,7 +7,7 @@ for i in range(int(m)):
     
 for arr in arrList:
     A = [int(s) for s in arr.split(' ')];
-    # let DP(i) be the sum of subarray from A{i, ..., j} for some j >= i
+    # let DP(i) be the sum of subarray from A{0, ..., j} for all i
     # let DPNON(i) be the non-contiguous sum of the subarray from A{0,...,i}
     # we need to guess whether to include the next index in the sum or not
     # of subproblems is O(n), each takes constant time to solve hence the algorithm completes in O(n)
