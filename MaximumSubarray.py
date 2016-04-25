@@ -20,7 +20,9 @@ for arr in arrList:
     contiguousSum = -pow(10,4);
     # Recurrence
     for i in range(len(A)):
+	# from the above speculations, we come up with a recurrence for contiguous and non-contiguous subarray sums (max)
         DP[i] = max(DP[i-1] + A[i], A[i]);
+	# slight modification for non-contiguous - we must also include the previous solution for DP(i-1)
         DPNON[i] = max(DPNON[i-1] + A[i], A[i], DPNON[i-1]);
         
     for k in range(len(A)):
