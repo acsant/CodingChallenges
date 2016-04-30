@@ -60,3 +60,19 @@ NNNY
 197
 
 3
+
+## Red John Is Back
+> Red John is a murdered who likes to leave clues. There is a 4xN wall in the victim's house. There is also an infinite supply of bricks where each brick is either a 1x4 or a 4x1 in dimensions. To find the murderer, one must find the number of all possible configurations in which the wall can be covered by the available bricks. Let this number be M. Now we must find all the prime numbers upto and including M.
+
+###### Sample Input
+2  // Number of test cases
+
+1  // First test case
+
+7  // Second test case
+###### Sample Output
+0  
+
+3
+
+> There is only 1 configuration for the first test case. So 0 prime numbers. For the second test case, there are 5 configurations (M = 5). There are 3 prime numbers upto and including 5, which are 2, 3, and 5. Hence the output is 0 for first test case and 3 for the second test case.  
