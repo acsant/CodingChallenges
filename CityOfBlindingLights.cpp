@@ -122,6 +122,13 @@ int main(int argc, char *argv[]) {
         cout << _distance << endl;
         Q--;
     }
-
+    
+    /**
+     * The overall time complexity of this algorithm is dominated by the
+     * preprocessing step (Dynamically calculating the distance array). This is
+     * done in O(N^3). Querying the distance is then done in constant time. So,
+     * N queries can be answered in O(N). So, the overall time complexity is
+     * O(N^3)
+     */
     return 0;
 }
