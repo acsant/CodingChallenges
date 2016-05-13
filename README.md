@@ -76,3 +76,35 @@ NNNY
 3
 
 > There is only 1 configuration for the first test case. So 0 prime numbers. For the second test case, there are 5 configurations (M = 5). There are 3 prime numbers upto and including 5, which are 2, 3, and 5. Hence the output is 0 for first test case and 3 for the second test case.  
+
+## The city with blinding lights
+> Given a directed, weighted graph, consisting of N nodes and there are edges, of specified length between some of them in the graph. Given Q questions, inquiring the shortest distance between a queried pair of nodes in the graph. Answer all the queries as quickly as possible.
+
+###### Sample Input
+4 5 // Number of nodes and edges
+
+1 2 5 // First two numbers are nodes and last int is weight of the edge between
+the two nodes
+
+1 4 24
+
+2 4 6
+
+3 4 4
+
+3 2 7
+
+3
+
+1 2  // Shortest path from 1 to 2 is of length 5
+
+3 1  // No paths from 3 to 1
+
+1 4  // Shortest path from 1 to 4 is of length 11
+
+###### Sample Output
+5
+
+-1
+
+11
