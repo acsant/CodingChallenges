@@ -114,18 +114,29 @@ the two nodes
 
 ###### Sample Input
 6
+
 12
+
 4
+
 5
+
 3
+
 8
+
 7
 
 ###### Sample Output
 12.0
+
 8.0
+
 5.0
+
 4.5
+
 5.0
+
 6.0
 
