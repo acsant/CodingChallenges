@@ -140,3 +140,11 @@ the two nodes
 
 6.0
 
+## The Least Common Multiple
+> Given an input array of n integers, find the least common multiple.
+
+###### Sample Input
+1 2 4
+
+###### Sample Output
+4
